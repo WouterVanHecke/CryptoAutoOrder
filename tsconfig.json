@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "target": "es6",   
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "types": ["node"],
+    "resolveJsonModule": true,
+    "outDir": "./dist/",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "noImplicitAny": false,
+  },
+  "include": ["./src/**/*.js", "./src/**/*.ts", "typings"],
+  "exclude": [
+    "node_modules"
+  ]
+}
